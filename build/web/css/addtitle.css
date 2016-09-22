@@ -1,0 +1,60 @@
+* {margin:0; padding:0; outline:none;font-family: "MS Gothic", "Arial", "MS UI Gothic"/*����������*/}
+body {font:12px Verdana,Arial; margin:25px;  background: url('../img/ventus-background.png') #EFEFEF !important; color:#091f30}
+
+.ShoppingList{width:950px;margin:auto}
+
+.sortable {width:950px; border-left:1px solid #c6d5e1; border-top:1px solid #c6d5e1; border-bottom:none; margin:0 auto 15px}
+.sortable th {background:url(../img/header-bg.gif); text-align:left; color:#cfdce7; border:1px solid #fff; border-right:none}
+.sortable th h3 {font-size:12px; padding:6px 8px 8px}
+.sortable td {padding:4px 6px 6px; border-bottom:1px solid #c6d5e1; border-right:1px solid #c6d5e1}
+.sortable .head h3 {background:url(../img/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .desc, .sortable .asc {background:url(../img/header-selected-bg.gif)}
+.sortable .desc h3 {background:url(../img/desc.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .asc h3 {background:url(../img/asc.gif) 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .head:hover, .sortable .desc:hover, .sortable .asc:hover {color:#fff}
+.sortable .evenrow td {background:#fff}
+.sortable .oddrow td {background:#ecf2f6}
+.sortable td.evenselected {background:#ecf2f6}
+.sortable td.oddselected {background:#dce6ee}
+.sortable a:link,.sortable a:visited,.sortable a:active{color:#999;font-size:12px;text-decoration:underline}
+.sortable a:hover{color:#333}
+.sortable tbody input{border:1px solid #ddd;text-align:center;width:30px; background: url(../img/inputBG.gif) repeat-x;font-size:12px}
+
+
+.ShoppingList .controls{width:950px; margin:0 auto; height:20px}
+.ShoppingList .perpage{float:left; width:200px}
+.ShoppingList .perpage select{float:left; font-size:11px}
+.ShoppingList .perpage span{float:left; margin:2px 0 0 5px}
+.ShoppingList .navigation{float:left; width:550px; text-align:center}
+.ShoppingList .navigation img{cursor:pointer}
+.ShoppingList .page{float:left; width:200px; text-align:right; margin-top:2px}
+.ShoppingList .text{margin-bottom:10px;}
+
+img{border:0;}
+.img1{position:relative}
+.img2{position:absolute;top:120px;}
+.img3{position:absolute;top:220px;}
+.img_1 b{text-decoration:underline;font-weight:normal; line-height:18px}
+.img_1 b .img_1_h{display:none;}
+.img_1 b:hover{zoom:1}
+.img_1 b:hover .img_1_h{position:absolute;top:-10px;*top:-7px;left:420px;*left:425px;display:block;z-index:10;}
+
+fieldset{font-size: 18px;}
+fieldset ol{
+    list-style: none;
+    padding: 0;
+    margin: 4px;
+}
+fieldset ol li{
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+fieldset input{
+    width: 200px;
+    height: 20px;
+    display: block;
+}
+p{
+    color: red;
+    font-size: 15px;
+}
